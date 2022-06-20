@@ -1,0 +1,162 @@
+@font-face {
+		font-family: 'FonteLogo';
+		/*src : url("../fontes/MochiyPopPOne-Regular.ttf");*/
+		src: url("../fontes/bubblegum-sans-regular.otf");
+}
+.navbar {
+	background-color: #174775ed;
+}
+.navbar-toggler:focus {
+	border: none!important;
+	outline: none!important;
+	box-shadow: none!important;
+}
+.navbar .navbar-nav li a {
+	color: #F4F2F2!important;
+	transition: all 2s;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar .navbar-nav li {
+    padding: 9px!important;
+}
+.navbar .navbar-nav li .dropdown-item{
+	color: #343a40!important;
+	transition: all 0.1s;
+}
+.navbar .navbar-nav li .dropdown-item:hover{
+	background-color: #174875d7;
+	color: #fff!important;
+}
+.navbar .navbar-nav .dropdown-menu {
+	background-color: #F3F2F2;
+}
+
+.cont input {
+	width: 75%!important;
+	/*border: 2px solid #D2D1D1!important;*/
+	border: 1px solid #343a40!important;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	transition: all 1s;
+	font-family: 'Arial';
+	color: #174875d7;
+	font-size: 17px;
+}
+/*.cont input:hover {
+	border: 2px solid ##343a40!important;
+}*/
+
+.cont input:focus {
+  outline: none;
+ /*box-shadow: 1px 1px 2px 2px #ccc ;*/
+}
+
+.cont .input-group .btn {
+	background-color: #174875d7!important;
+	border-top-left-radius: 0px!important;
+	border-bottom-left-radius: 0px!important;
+	color: #fff;
+	border: 0px none;
+}
+
+.cont .input-group .btn:focus {
+	outline: none;
+  box-shadow: none;
+}
+
+.texto-dic {
+	text-align: justify;
+	color: #174875d7!important;
+	word-spacing: 3px;
+	font-size: 13pt;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pesq-all input {
+	height: 20px!important;
+	padding: 16px;
+}
+.pesq-all input:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.pesq-all button {
+	height: 34px!important;
+	background-color: #fff;
+	cursor: pointer;
+}
+.pesq-all button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.redes a {
+	margin: 0px;
+	margin-top: 5px;
+}
+.redes i {
+		font-size: 16px;
+		color: #fff;
+}
+.redes .f {
+	background-color: #0754B3;
+}
+
+.redes .w {
+	background-color:#189670 ;
+}
+
+.redes .l {
+	background-color: #0754B3;
+}
+
+.logo {
+	font-family: 'FonteLogo', sans-serif;
+	color: #0754B3;	
+	font-size: 30pt;
+	text-shadow: 2px 2px 2px #797D37;
+}
+.login span {
+	font-weight: bolder;
+	color: #000;
+}
+.login input {
+	padding: 20px!important;
+	color: #0754B3!important;
+	
+	font-family: 'Arial';
+}
+.login input:focus {
+	outline: none;
+	box-shadow: none;
+}
+.login button {
+	 font-family: 'Arial';
+}
+
+.login .alerta {
+	text-align: center;
+}
+.login .alerta label {
+	color: #BF3232;
+}
+
+/* cadastrar */
+.cadastrar a {
+	text-decoration: none;
+	
+}
+.cadastrar input:focus {
+	outline: none;
+	box-shadow: none;
+}
+.cadastrar button {
+	color: #fff;
+}
+.cadastrar button:hover {
+	color: #fff;
+}
